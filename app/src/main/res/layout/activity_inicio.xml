@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InicioActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:src="@drawable/logo"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:layout_margin="2dp"
+        android:gravity="center"
+        android:text="Bienvenido"
+        android:id="@+id/bienvenido"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:background="#000000"
+            android:text="Editar Cuenta"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:id="@+id/editar"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:background="#000000"
+            android:text="Eliminar Cuenta"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:id="@+id/eliminar"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:background="#000000"
+            android:text="Mostrar Artistas/Bandas"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:id="@+id/mostrar"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:background="#000000"
+            android:text="Salir"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:id="@+id/salir"
+            />
+
+    </LinearLayout>
+</LinearLayout>
