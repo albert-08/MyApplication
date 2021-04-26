@@ -1,6 +1,6 @@
 package com.example.myapplication.database;
 
-public class Company {
+public class Companies {
 
     private String name ;
     private String description;
